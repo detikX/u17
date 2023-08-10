@@ -1,0 +1,21 @@
+section {
+    padding: 32px 0;
+    background: $red;
+    min-height: 100vh;
+    position: relative;
+}
+
+main,body {
+    padding: 0;
+    margin: 0;
+    overflow-x: clip;
+}
+
+.test-sticky {
+    position: sticky;
+    top: 72px;
+}
+
+.h80 {
+    height: 80vh;
+}

@@ -61,6 +61,9 @@
             font-size: 1.5rem;
             text-align: center;
             font-weight: 700;
+            @media screen and (max-width:766px) {
+                font-size: 1.2rem;
+            }
         }
 
 

@@ -40,7 +40,7 @@
         // border: 3px solid white;
         position: relative;
         width: 100%;
-        background: $red;
+        background: $red2;
         height: fit-content;
         filter: drop-shadow(1px 1px 3px #eee);
         border-radius: 16px;
@@ -63,7 +63,7 @@
                 left: 0;
                 right: 0;
                 height: 50%;
-                background: linear-gradient(to top, $red, transparent);
+                background: linear-gradient(to top, $red2, transparent);
             }
             img {
                 width: 100%;

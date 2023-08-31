@@ -10,7 +10,9 @@
     p {
         color: white;
     }
-
+    .h80 {
+        height: 80vh;
+    }
     .kolom {
         .atas {
             display: block;
@@ -52,7 +54,8 @@
             border-radius: 16px;
             top: -20px;
             padding: 16px;
-            background: rgba($color: white, $alpha: .3);
+            background: #835763;
+            // background: rgba($color: white, $alpha: .3);
             @media screen and (max-width:766px) {
                 top: -12px;
                 width: 90%;

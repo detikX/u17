@@ -139,6 +139,9 @@
                 border-radius: 20px;
                 margin-bottom: 8px;
                 display: block;
+                @media screen and (max-width:766px) {
+                    font-size: 14px;
+                }
                 .bendera {
                     width: 30px;
                     height: 30px;

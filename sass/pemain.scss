@@ -57,8 +57,11 @@
             // bottom: 0;
             width: 100%;
             padding: 8px 16px 0;
-            height: 50%;
+            height: 360px;
             position: relative;
+            @media screen and (max-width:766px) {
+                height: 250px;
+            }
             &::before {
                 content: "";
                 position: absolute;

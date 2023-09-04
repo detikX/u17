@@ -11,6 +11,19 @@
             object-fit: contain;
         }
     }
+    .suporter {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     .bayang {
         position: absolute;
         // inset: 0;
@@ -62,6 +75,9 @@
                 color: white;
                 border-radius: 0 24px 0px 0;
                 font-size: 1.4rem;
+                @media screen and (max-width:766px) {
+                    font-size: 1rem;
+                }
             }
             .logo {
                 width: 90px;
@@ -93,7 +109,7 @@
             background: #835763;
             // background: rgba($color: white, $alpha: .3);
             @media screen and (max-width:766px) {
-                top: -12px;
+                top: -16px;
                 width: 90%;
                 
             }

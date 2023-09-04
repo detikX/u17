@@ -11,6 +11,26 @@
             object-fit: contain;
         }
     }
+    .bayang {
+        position: absolute;
+        // inset: 0;
+        top: 95%;
+        left: 8px;
+        transform: rotate(180deg);
+        &::before {
+            content: "";
+            position: absolute;
+            background: linear-gradient(to bottom,$red 70%, rgba($red,.7));
+            width: 100%;
+            height: 100%;
+            inset: 0;
+        }
+        img {
+            height: 100%;
+            object-fit: contain;
+            width: 100%;
+        }
+    }
     .images {
         position: relative;
         z-index: 5;

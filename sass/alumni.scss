@@ -80,6 +80,9 @@
                 .name {
                     left: 3rem;
                     font-size: 3.7rem;
+                    @media screen and (max-width:766px) {
+                        left: -1rem;
+                    }
                 }
             }
             .negara {
@@ -105,8 +108,9 @@
                 font-weight: 700;
                 top: 7rem;
                 @media screen and (max-width:766px) {
-                    top: 4rem;
-                    left: -6rem;
+                    top: 7rem;
+                    left: -1rem;
+                    font-size: 3rem;
                 }
             }
         }

@@ -1,15 +1,5 @@
 .banner {
-    background-image: url('../img/kotaks.png');
-    background-attachment: fixed;
-    background-position: center;
-
-    
-    &::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(to top, #4f0d1f, rgba($red,0.7));
-    }
+   
     .segi3 {
         position: absolute;
         left: 0;

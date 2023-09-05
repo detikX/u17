@@ -60,7 +60,8 @@
         position: relative;
         padding: 8px;
         margin-bottom: 16px;
-        background: $red2;
+        // background: $red2;
+        background: linear-gradient(-45deg, #410012, $red2);
         // background: url('../img/bg-anim.png') repeat $red;
         // background-position: center;
         // background-size: 20%;

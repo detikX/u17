@@ -48,6 +48,9 @@
             color: yellow;
             font-size: 3rem;
             font-weight: 700;
+            @media screen and (max-width:766px) {
+                font-size: 2.5rem;
+            }
         }
     }
 

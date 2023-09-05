@@ -9,6 +9,8 @@ $(".bawah li").attr({"data-aos":"fade-in", "data-aos-delay":"500", "data-aos-dur
 $(".alumni .player .img").attr({"data-aos":"fade-in", "data-aos-delay":"1200", "data-aos-duration":"1000"})
 // $(".alumni .player .name").attr({"data-aos":"zoom-in", "data-aos-delay":"500", "data-aos-duration":"500"})
 
+$(".is").attr({"data-aos":"fade-right", "data-aos-delay":"500", "data-aos-duration":"500"})
+
 
 //countdown
 // Set the date we're counting down to

@@ -11,6 +11,10 @@ $(".alumni .player .img").attr({"data-aos":"fade-in", "data-aos-delay":"1200", "
 
 $(".is").attr({"data-aos":"fade-right", "data-aos-delay":"500", "data-aos-duration":"500"})
 
+$(".polemik .content").attr({"data-aos":"fade-in", "data-aos-delay":"1000", "data-aos-duration":"1000"})
+$(".polemik .image").attr({"data-aos":"fade-in", "data-aos-delay":"500", "data-aos-duration":"500"})
+
+
 
 //countdown
 // Set the date we're counting down to

@@ -18,13 +18,14 @@
     }
     padding: 0;
     .pelatih {
-        width: 50vw;
-        height: 80vh;
+        width: fit-content;
+        height: auto;
+        filter: drop-shadow(3px 0px 6px #fff);
         position: absolute;
         bottom: 0;
         z-index: 3;
-
         left: 0;
+
         @media screen and (max-width:766px) {
             width: 85vw;
             height: auto;

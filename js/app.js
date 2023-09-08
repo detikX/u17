@@ -34,22 +34,27 @@ var x = setInterval(function() {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  var jam = ("0"+hours).slice(-2);
+  var min = ("0"+minutes).slice(-2);
+  var hari = ("0"+days).slice(-2);
+  var tik = ("0"+seconds).slice(-2);
     
   // Output the result in an element with id="demo"
 //   document.getElementById("demo").innerHTML = days + " Hari " + hours + " Jam "
 //   + minutes + " Menit " + seconds + " Detik ";
 
 $(".day").html(`
-    ${days} <small>Hari</small>
+    ${hari} <small>Hari</small>
 `)
 $(".ho").html(`
-    ${hours} <small>Jam</small>
+    ${jam} <small>Jam</small>
 `)
 $(".min").html(`
-    ${minutes} <small>Menit</small>
+    ${min} <small>Menit</small>
 `)
 $(".sec").html(`
-    ${seconds} <small>Detik</small>
+    ${tik} <small>Detik</small>
 `)
     
   // If the count down is over, write some text 

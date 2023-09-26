@@ -1,65 +1,71 @@
-$(document).ready(function() {
-    AOS.init()
+$(document).ready(function () {
+  AOS.init()
 })
 
-$(".bawah li").attr({"data-aos":"fade-in", "data-aos-delay":"500", "data-aos-duration":"1000"})
+$(".bawah li").attr({ "data-aos": "fade-in", "data-aos-delay": "500", "data-aos-duration": "1000" })
 
 // $(".card_anim .imgs").attr({"data-aos":"fade-in", "data-aos-delay":"500", "data-aos-duration":"1000"})
 
-$(".alumni .player .img").attr({"data-aos":"fade-in", "data-aos-delay":"1200", "data-aos-duration":"1000"})
+$(".alumni .player .img").attr({ "data-aos": "fade-in", "data-aos-delay": "1200", "data-aos-duration": "1000" })
 // $(".alumni .player .name").attr({"data-aos":"zoom-in", "data-aos-delay":"500", "data-aos-duration":"500"})
 
-$(".is").attr({"data-aos":"fade-right", "data-aos-delay":"500", "data-aos-duration":"500"})
+$(".is").attr({ "data-aos": "fade-right", "data-aos-delay": "500", "data-aos-duration": "500" })
 
-$(".polemik .content").attr({"data-aos":"fade-in", "data-aos-delay":"1000", "data-aos-duration":"1000"})
-$(".polemik .image").attr({"data-aos":"fade-in", "data-aos-delay":"500", "data-aos-duration":"500"})
+$(".polemik .content").attr({ "data-aos": "fade-in", "data-aos-delay": "1000", "data-aos-duration": "1000" })
+$(".polemik .image").attr({ "data-aos": "fade-in", "data-aos-delay": "500", "data-aos-duration": "500" })
 
 
 
 //countdown
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 10, 2023 18:00:00").getTime();
+var countDownDate = new Date("Nov 10, 2023 15:00:00").getTime();
 
 // Update the count down every 1 second
-var x = setInterval(function() {
+var x = setInterval(function () {
 
   // Get today's date and time
   var now = new Date().getTime();
-    
+
   // Find the distance between now and the count down date
   var distance = countDownDate - now;
-    
+
   // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  var jam = ("0"+hours).slice(-2);
-  var min = ("0"+minutes).slice(-2);
-  var hari = ("0"+days).slice(-2);
-  var tik = ("0"+seconds).slice(-2);
-    
-  // Output the result in an element with id="demo"
-//   document.getElementById("demo").innerHTML = days + " Hari " + hours + " Jam "
-//   + minutes + " Menit " + seconds + " Detik ";
+  var jam = ("0" + hours).slice(-2);
+  var min = ("0" + minutes).slice(-2);
+  var hari = ("0" + days).slice(-2);
+  var tik = ("0" + seconds).slice(-2);
 
-$(".day").html(`
+  // Output the result in an element with id="demo"
+  //   document.getElementById("demo").innerHTML = days + " Hari " + hours + " Jam "
+  //   + minutes + " Menit " + seconds + " Detik ";
+
+  $(".day").html(`
     ${hari} <small>Hari</small>
 `)
-$(".ho").html(`
+  $(".ho").html(`
     ${jam} <small>Jam</small>
 `)
-$(".min").html(`
+  $(".min").html(`
     ${min} <small>Menit</small>
 `)
-$(".sec").html(`
+  $(".sec").html(`
     ${tik} <small>Detik</small>
 `)
-    
+
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    // document.getElementById("demo").innerHTML = "EXPIRED";
+
+    $("#demo").html(
+      `
+        <div class="expired">Piala Dunia sedang berlangsung</div>
+      `
+    )
   }
 }, 1000);

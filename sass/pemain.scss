@@ -47,13 +47,23 @@
 
     .card_anim {
         // border: 3px solid white;
+        // filter: drop-shadow(1px 1px 3px #eee);
+        // position: relative;
+        // width: 100%;
+        // background: $red2;
+        // height: fit-content;
+        // border-radius: 16px;
+        // overflow-x: hidden;
+        // margin-bottom: 16px;
+
         position: relative;
         width: 100%;
-        background: $red2;
+        /* background: #6d0d27; */
+        /* box-shadow: 2px 3px black; */
         height: fit-content;
-        // filter: drop-shadow(1px 1px 3px #eee);
         border-radius: 16px;
         overflow-x: hidden;
+        height: 293px;
         margin-bottom: 16px;
         .imgs {
             // position: absolute;

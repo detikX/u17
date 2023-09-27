@@ -63,7 +63,6 @@
         height: fit-content;
         border-radius: 16px;
         overflow-x: hidden;
-        height: 293px;
         margin-bottom: 16px;
         .imgs {
             // position: absolute;
@@ -81,14 +80,19 @@
             &::before {
                 content: "";
                 position: absolute;
-                bottom: 0;
+                bottom: -16px;
                 left: 0;
+                border-radius: 16px 16px 0 0;
                 right: 0;
                 height: 50%;
-                background: linear-gradient(to top, $red2, transparent);
+                background: #7d0e32;
             }
             img {
                 width: 100%;
+                position: relative;
+                // filter: drop-shadow(2px 2px black);
+                z-index: 2;
+                bottom: -16px;
                 height: 100%;
                 object-fit: contain;
             }

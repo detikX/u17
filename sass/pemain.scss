@@ -72,10 +72,10 @@
             // bottom: 0;
             width: 100%;
             padding: 8px 16px 0;
-            height: 300px;
+            height: auto;
             position: relative;
             @media screen and (max-width:766px) {
-                height: 250px;
+                height: auto
             }
             &::before {
                 content: "";

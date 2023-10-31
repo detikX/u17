@@ -68,19 +68,9 @@
         box-shadow: 2px 3px 4px black;
         // background: $red2;
         background: linear-gradient(-45deg, #410012, $red2);
-        // background: url('../img/bg-anim.png') repeat $red;
-        // background-position: center;
-        // background-size: 20%;
-        // &::before {
-        //     content: "";
-        //     position: absolute;
-        //     inset: 0;
-        //     background: linear-gradient(to top, $red, rgba($red,.3), $red);
-        // }
-        // @media screen and (max-width:766px) {
-            
-        //     background-size: 50%;
-        // }
+       @media screen and (max-width:766px) {
+        height: 280px;
+       }
         &::before {
             content: "";
             position: absolute;

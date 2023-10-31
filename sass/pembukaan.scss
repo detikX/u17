@@ -9,9 +9,10 @@
 
     .cardx {
         width: 100%;
-        background: rgba($color: $red, $alpha: .5);
+        background: rgba($color: $red, $alpha: .9);
         padding: 8px;
         color: white;
+        border-radius: 8px;
         p {
             margin-bottom: 0;
         }

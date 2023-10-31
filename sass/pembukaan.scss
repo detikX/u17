@@ -41,7 +41,7 @@
             bottom: 0;
             right: 0;
             height: 200px;
-            background: linear-gradient(to top, $red, transparent);
+            background: linear-gradient(to top, rgba($red,1), transparent);
         }
         img {
             width: 100%;
@@ -65,7 +65,7 @@
             // inset: initial;
             opacity: .3;
             width: 100vw;
-            height: 70vh;
+            height: 90vh;
             // left: 0;
         
         }

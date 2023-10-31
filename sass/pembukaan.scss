@@ -7,6 +7,12 @@
         height: 100vh;
     }
 
+    .container {
+        @media screen and (max-width:766px) {
+            margin-top: -30vh;
+        }
+    }
+
     .cardx {
         width: 100%;
         background: rgba($color: $red, $alpha: .9);

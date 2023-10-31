@@ -46,6 +46,7 @@
         width: 50%;
         margin: 0 auto;
         z-index: 8;
+
         @media screen and (max-width:766px) {
             width: 100%;
         }
@@ -53,6 +54,19 @@
             color: yellow;
             font-size: 3rem;
             font-weight: 700;
+            transform: rotate(-5deg);
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                left: 50%;
+                top: 40%;
+                transform: translate(-50%,-50%);
+                width: 60%;
+                height: 80%;
+                background: black;
+                z-index: -1;
+            }
             @media screen and (max-width:766px) {
                 font-size: 2.5rem;
             }

@@ -8,8 +8,7 @@ $(".card_anim .imgs").attr({ "data-aos": "fade-in", "data-aos-delay": "300", "da
 
 
 
-$(".alumni .player .img").attr({ "data-aos": "fade-in", "data-aos-delay": "700", "data-aos-duration": "700" })
-// $(".alumni .player .name").attr({"data-aos":"zoom-in", "data-aos-delay":"500", "data-aos-duration":"500"})
+$(".alumni .player .img").attr({ "data-aos": "zoom-in", "data-aos-delay": "300", "data-aos-duration": "700" })
 
 $(".is").attr({ "data-aos": "fade-right", "data-aos-delay": "300", "data-aos-duration": "500" })
 

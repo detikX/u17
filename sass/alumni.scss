@@ -63,7 +63,7 @@
         width: 100%;
         height: 320px;
         position: relative;
-        padding: 8px;
+        padding: 8px 8px 0;
         margin-bottom: 16px;
         // background: $red2;
         background: linear-gradient(-45deg, #410012, $red2);
@@ -86,8 +86,9 @@
             position: relative;
             z-index: 9;
             img {
+           
                 width: 100%;
-                filter: drop-shadow(2px 4px 6px black);
+                // filter: drop-shadow(2px 4px 6px black);
                 height: 100%;
                 object-fit: contain;
             }
@@ -127,16 +128,20 @@
                 // text-transform: uppercase;
                 
                 right: 0rem;
-                left: 2.3rem;
+                left: -2.7rem;
                 width: fit-content;
                 font-weight: 700;
                 top: 7rem;
                 @media screen and (max-width:766px) {
                     top: 7rem;
-                    left: -1rem;
+                    left: -3rem;
                     font-size: 3rem;
                 }
             }
         }
+    }
+
+    .color-white {
+        color: white;
     }
 }

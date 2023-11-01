@@ -8,6 +8,7 @@
     }
 
     .container {
+        margin-top: -10vh;
         @media screen and (max-width:766px) {
             margin-top: -30vh;
         }
@@ -48,7 +49,9 @@
             bottom: 0;
             right: 0;
             height: 200px;
-            background: linear-gradient(to top, rgba($red,1), transparent);
+            @media screen and (max-width:766px) {
+                background: linear-gradient(to top, rgba($red,1), transparent);
+            }
         }
         img {
             width: 100%;

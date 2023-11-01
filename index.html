@@ -2,12 +2,16 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta name="viewport"
+            content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <title>Piala Dunia Pertama di Indonesia</title>
         <link rel="stylesheet" href="sass/bootstrap.min.css">
         <link rel="stylesheet" href="sass/aos.css">
         <link rel="stylesheet" href="sass/jquery.fancybox.min.css">
         <link rel="stylesheet" href="sass/style.css">
+        <link rel="stylesheet" href="sass/slick-theme.css">
+        <link rel="stylesheet" href="sass/slick.css">
     </head>
 
     <body>
@@ -666,8 +670,9 @@
             </section>
 
             <section class="jadwal">
-                <br>
+
                 <div class="container">
+
                     <div class="titles">
                         <h3>Jadwal Pertandingan</h3>
                     </div>
@@ -908,29 +913,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="calendars">
-                        <div class="calendar">
-                            <div class="timeline">
-                                <div class="spacer"></div>
-                                <!-- <div class="time-marker">9 AM</div>
-                                <div class="time-marker">10 AM</div>
-                                <div class="time-marker">11 AM</div>
-                                <div class="time-marker">12 PM</div>
-                                <div class="time-marker">1 PM</div>
-                                <div class="time-marker">2 PM</div> -->
-                                <div class="time-marker">16.00</div>
-                                <div class="time-marker">17.00</div>
-                                <div class="time-marker">18.00</div>
-                                <div class="time-marker">19.00</div>
-                                <div class="time-marker">20.00</div>
-                                <div class="time-marker">21.00</div>
-                                <div class="time-marker">22.00</div>
-                            </div>
-                            <div class="daysx">
                                 <div class="dayx mon">
                                     <div class="date">
                                         <p class="date-num">15</p>
@@ -974,6 +957,30 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calendars">
+                        <div class="calendar">
+                            <div class="timeline">
+                                <div class="spacer"></div>
+                                <!-- <div class="time-marker">9 AM</div>
+                                <div class="time-marker">10 AM</div>
+                                <div class="time-marker">11 AM</div>
+                                <div class="time-marker">12 PM</div>
+                                <div class="time-marker">1 PM</div>
+                                <div class="time-marker">2 PM</div> -->
+                                <div class="time-marker">16.00</div>
+                                <div class="time-marker">17.00</div>
+                                <div class="time-marker">18.00</div>
+                                <div class="time-marker">19.00</div>
+                                <div class="time-marker">20.00</div>
+                                <div class="time-marker">21.00</div>
+                                <div class="time-marker">22.00</div>
+                            </div>
+                            <div class="daysx" hidden>
+
                                 <div class="dayx tues">
                                     <div class="date">
                                         <p class="date-num">11</p>
@@ -1083,23 +1090,18 @@
                         </div>
                         <div class="content">
                             <h4 class="judul">Rumput Lapangan</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur
-                                adipisicing elit. Et, facere. Qui soluta
-                                vero iste, similique cumque rem, sunt quasi,
-                                assumenda vel voluptates totam voluptatibus
-                                officia debitis facere quidem dicta
-                                mollitia.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Minus ratione tenetur
-                                consectetur aut et accusamus aperiam animi
-                                excepturi veritatis cumque, porro reprehenderit
-                                minima quidem aspernatur molestias assumenda
-                                nesciunt! Iure, fugiat? Lorem ipsum dolor sit
-                                amet consectetur adipisicing elit. Dolore quo
-                                tempore animi consequuntur, cumque soluta
-                                obcaecati recusandae sunt dolor voluptates
-                                itaque et sint exercitationem incidunt enim
-                                explicabo. Commodi, fugit eaque?</p>
+                            <p>Masalah lainnya adalah kualitas rumput di JIS
+                                yang dinilai belum memenuhi standar FIFA.
+                                Walaupun sudah menggunakan rumput hibrida yang
+                                masuk dalam daftar rumput pilihan FIFA, rumput
+                                tersebut masih belum memenuhi standar menurut
+                                Menteri PUPR. Rencananya, rumput hibrida yang
+                                ada di JIS akan diganti dengan rumput golf
+                                dengan biaya sebesar Rp6 miliar. Menpora juga
+                                menyebut bahwa dirinya memiliki catatan
+                                tersendiri soal akses parkir hingga akses
+                                transportasi di JIS.</p>
+
                         </div>
                     </div>
 
@@ -1139,6 +1141,7 @@
         </main>
 
         <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/slick.min.js"></script>
         <script src="js/aos.js"></script>
         <script src="js/jquery.fancybox.min.js"></script>
         <script src="js/kolase.js"></script>

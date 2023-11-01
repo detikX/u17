@@ -8,4 +8,16 @@
             font-size: 3rem;
         }
     }
+
+    #myTable {
+        color: white;
+    }
+    .slick-slide {
+        margin: 0 8px;
+    }
+  
+    /* the parent */
+    .slick-list {
+        margin: 0 -8px;
+    }
 }

@@ -33,6 +33,8 @@
         position: relative;
         z-index: 20;
         margin: 24px auto 0;
+        border-bottom: 2px dotted #959595;
+        padding-bottom: 24px;
         @media screen and (max-width:766px) {
             width: auto;
         }
@@ -44,9 +46,9 @@
         .image {
             // float: left;
             // display: inline-block;
-            width: 520px;
+            width: 50%;
             margin-right: 16px;
-            height: 320px;
+            height: 50vh;
             filter: drop-shadow(2px 3px 4px black);
             @media screen and (max-width:766px) {
                 width: 100%;

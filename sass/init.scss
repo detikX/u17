@@ -24,6 +24,9 @@ main,body {
     margin: 0;
     overflow-x: clip;
     font-family: 'Bricolage Grotesque', sans-serif;
+    p {
+        font-size: 1.1rem;
+    }
 }
 
 .test-sticky {
@@ -32,5 +35,6 @@ main,body {
 }
 
 .h80 {
-    height: 40vh;
+    // height: 40vh;
+    margin-bottom: 20vh;
 }

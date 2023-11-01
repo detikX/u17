@@ -16,10 +16,15 @@
 
     .cardx {
         width: 100%;
-        background: rgba($color: $red, $alpha: .9);
         padding: 8px;
-        color: white;
+        // color: white;
+        color: #e2e2e2;
+        background: rgba($color: $red, $alpha: .7);
         border-radius: 12px;
+        @media screen and (max-width:766px) {
+            background: rgba($color: $red, $alpha: .9);
+            
+        }
         p {
             margin-bottom: 0;
         }

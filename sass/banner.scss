@@ -56,10 +56,13 @@
          
             @media screen and (max-width:766px) {
                 width: 100%;
-                top: 40%;
-                left: 95%;
-            
+                top: 34%;
+                left: 55%;
+                text-align: center;
                 transform: inherit;
+            
+            
+                // transform: inherit;
             }
             h3 {
                 // text-align: center;
@@ -81,17 +84,18 @@
         }
        
         .p1 {
-            width: 100%;
+            width: fit-content;
             position: absolute;
+            height: 50%;
             bottom: 0%;
-            left: 13%;
+            left: 21%;
             filter: drop-shadow(6px 4px 6px black);
             z-index: 5;
-            height: 45%;
+        
             @media screen and (max-width:766px) {
                 width: 100%;
                 position: absolute;
-                bottom: 0;
+                bottom: -10px;
                 z-index: 8;
                 left: 11%;
                 height: 35%;
@@ -124,18 +128,18 @@
         }
         .p3 {
             filter: drop-shadow(6px 4px 6px black);
-            width: 100%;
-            height: 66%;
+            width: fit-content;
+            height: 60%;
             position: absolute;
-            left: 16px;
+            left: 8%;
             z-index: 4;
-            bottom: -11%;
+            bottom: 14%;
             @media screen and (max-width:766px) {
-                height: 59%;
-                left: -3%;
+                height: 65%;
+                left: -10%;
                 z-index: 4;
-                width: 100%;
-                bottom: -10%;
+                width: fit-content;
+                bottom: 0%;
                 
             }
             img {

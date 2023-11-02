@@ -49,7 +49,8 @@
             width: 50%;
             margin-right: 16px;
             height: 50vh;
-            filter: drop-shadow(2px 3px 4px black);
+            padding-bottom: 32px;
+            // filter: drop-shadow(2px 3px 4px black);
             @media screen and (max-width:766px) {
                 width: 100%;
                 margin-right: 0;
@@ -80,7 +81,7 @@
             }
             @media screen and (max-width:766px) {
                 width: fit-content;
-                margin-top: 16px;
+                margin-top: 26px;
                 margin-left: 0;
             }
             .judul {
@@ -91,5 +92,19 @@
             }
         }
         
+    }
+
+    .foto {
+        color: white;
+    line-height: 16px;
+    /* position: absolute; */
+    bottom: 0;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    color: #ccc;
+    .names {
+        color: #ccc;
+    }
     }
 }

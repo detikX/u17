@@ -185,8 +185,19 @@
     >li {
         list-style-type: none;
         margin-top: 8px;
+        // color: #dedede;
         h4 {
             margin-bottom: 0;
+            @media screen and (max-width:766px) {
+                font-size: 1.3rem;
+            }
+        }
+        ol {
+            // list-style-type: none;
+            padding: 0 24px;
+            >li {
+                color: #dedede;
+            }
         }
     }
    }

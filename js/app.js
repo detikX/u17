@@ -105,3 +105,17 @@ var x = setInterval(function () {
     )
   }
 }, 1000);
+
+var team = $(".show-team");
+team.hide();
+$(".btn-all").click(function(){
+  team.slideToggle(
+    function(){
+      $('html, body').animate({
+        scrollTop: $(".skuad").offset().top
+    }, 1000);
+    }
+  )
+
+  $(this).text() === 'Lihat Semua Pemain' ? $(this).text('Tutup Semua Pemain') : $(this).text('Lihat Semua Pemain');
+})

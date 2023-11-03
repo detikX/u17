@@ -113,7 +113,7 @@ $(".btn-all").click(function(){
     function(){
       $('html, body').animate({
         scrollTop: $(".skuad").offset().top
-    }, 1000);
+    }, 500);
     }
   )
 

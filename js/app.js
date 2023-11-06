@@ -107,7 +107,7 @@ var x = setInterval(function () {
 }, 1000);
 
 var team = $(".show-team");
-team.hide();
+// team.hide();
 $(".btn-all").click(function(){
   team.slideToggle(
     function(){

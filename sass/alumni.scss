@@ -185,14 +185,13 @@
     min-height: auto;
 
     .gambar {
-        // position: absolute;
-        right: 0;
+        
         position: relative;
-        // opacity: .8;
-        bottom: 0;
-        // display: none;
-        width: auto;
-        height: auto;
+        /* bottom: 0; */
+        width: 640px;
+        top: -62px;
+        height: 640px;
+        margin: 0 auto;
         @media screen and (max-width:766px) {
             right: 25px;
             position: relative;
@@ -214,6 +213,18 @@
             height: 100px;
             width: 100%;
             background: linear-gradient(to top, $red, transparent);
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 100%;
+            width: 100px;
+            background: linear-gradient(to left, $red, transparent);
+            @media screen and (max-width:766px) {
+                background: initial;
+            }
         }
 
         img {
@@ -239,6 +250,7 @@
     padding: 0;
     position: relative;
     z-index: 6;
+    top: -72px;
     padding: 16px;
     background: radial-gradient(circle, #7a1734, #4d0f21 60%);
     @media screen and (max-width:766px) {
